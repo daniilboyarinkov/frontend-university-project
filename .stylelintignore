@@ -1,6 +1,0 @@
-node_modules
-/coverage
-/dist
-/public
-/tmp
-/src/styles/global/normalize.css
