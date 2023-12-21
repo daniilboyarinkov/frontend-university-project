@@ -1,2 +1,15 @@
 @import 'global/normalize.css';
 @import 'global/utility.css';
+@import 'blocks/header.css';
+@import 'blocks/menu.css';
+@import 'blocks/profile.css';
+@import 'blocks/helpful-info.css';
+@import 'blocks/sidebar.css';
+@import 'blocks/list.css';
+@import 'blocks/info.css';
+@import 'blocks/chapter.css';
+@import 'blocks/articles.css';
+@import 'blocks/card.css';
+@import 'blocks/footer.css';
+@import 'blocks/add_form.css';
+@import 'blocks/accordion.css';
