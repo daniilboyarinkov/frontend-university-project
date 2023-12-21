@@ -7,11 +7,11 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint vite-boilerplate --ext .js --fix",
+    "lint": "eslint . --ext .js --fix",
     "lint:prettier": "prettier --check \"**/*.{js,html}\"",
     "lint:prettier:fix": "prettier --write \"**/*.{js,html}\"",
-    "lint:stylelint": "stylelint \\\"src/**/*.css\\\"",
-    "lint:stylelint:fix": "stylelint \\\"src/**/*.css\\\" --fix"
+    "lint:stylelint": "stylelint \"src/**/*.css\"",
+    "lint:stylelint:fix": "stylelint \"src/**/*.css\" --fix"
   },
   "browserslist": [
     "last 2 version",

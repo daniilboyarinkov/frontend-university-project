@@ -1,0 +1,39 @@
+.header {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  background-color: #1f2937;
+  box-shadow: 0 0 0 100vmax #1f2937;
+  clip-path: inset(0 -100vmax);
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.header__hamburger {
+  display: none;
+}
+
+@media (width < 1024px) {
+  .logo {
+    width: 190px;
+    height: 45px;
+  }
+}
+
+@media (width < 576px) {
+  .header__hamburger {
+    display: block;
+  }
+
+  .logo {
+    display: none;
+  }
+}
